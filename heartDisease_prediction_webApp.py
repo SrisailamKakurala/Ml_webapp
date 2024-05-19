@@ -44,22 +44,22 @@ def main():
     ca = st.text_input("Enter ca: ")
     thal = st.text_input("Enter thal: ")
     
-    # Convert inputs to appropriate types
-    casted_data = [
-        float(age),
-        float(sex),
-        float(cp),
-        float(trestbps),
-        float(chol),
-        float(fbs),
-        float(restecg),
-        float(thalach),
-        float(exang),
-        float(oldpeak),
-        float(slope),
-        float(ca),
-        float(thal)
-    ]
+    # # Convert inputs to appropriate types
+    # casted_data = [
+    #     float(age),
+    #     float(sex),
+    #     float(cp),
+    #     float(trestbps),
+    #     float(chol),
+    #     float(fbs),
+    #     float(restecg),
+    #     float(thalach),
+    #     float(exang),
+    #     float(oldpeak),
+    #     float(slope),
+    #     float(ca),
+    #     float(thal)
+    # ]
     
     # code for prediction
     diagnosis = ''
