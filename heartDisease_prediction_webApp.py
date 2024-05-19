@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-model = pickle.load(open('C:/Users/venka/OneDrive/Desktop/ML_web/streamlitDeploy/m.sav', 'rb'))
+model = pickle.load(open('m.sav', 'rb'))
 
 
 def predict(input_data):
