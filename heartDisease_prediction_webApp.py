@@ -66,7 +66,7 @@ def main():
     
     # creating a button for prediction
     if st.button('Diabetes Test Results'):
-        diagnosis = predict(casted_data)
+        diagnosis = predict([age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal])
     
     st.success(diagnosis)
     
